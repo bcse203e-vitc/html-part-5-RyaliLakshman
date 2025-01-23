@@ -1,0 +1,85 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Form Container Styling */
+  .form-container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Form Header */
+  .login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* CSS Pseudo-Classes for Validation */
+  .login-form input:valid {
+    border-color: #28a745;
+  }
+  
+  .login-form input:invalid {
+    border-color: #dc3545;
+  }
+  
+  /* Checkbox Styling */
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .checkbox-container input {
+    margin-right: 5px;
+  }
+  
+  /* Submit Button */
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
