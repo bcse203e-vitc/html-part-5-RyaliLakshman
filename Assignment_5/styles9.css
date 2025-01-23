@@ -1,0 +1,80 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Pricing Table Styling */
+  .pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Common Plan Styling */
+  .pricing-plan {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+  }
+  
+  .pricing-plan h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .pricing-plan ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-plan ul li {
+    margin: 8px 0;
+    color: #333;
+  }
+  
+  /* Styling for Popular Plan */
+  .pricing-plan.popular {
+    background-color: #ffeb3b; /* Highlight the popular plan */
+    border: 2px solid #ff9800;
+  }
+  
+  .pricing-plan.popular h2 {
+    color: #ff9800;
+  }
+  
+  .pricing-plan.popular .price {
+    color: #d32f2f;
+  }
+  
+  /* Button Styling */
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
