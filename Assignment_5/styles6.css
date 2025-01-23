@@ -1,0 +1,54 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container for the Animated Header */
+  .header-container {
+    text-align: center;
+  }
+  
+  /* Styling for the Header */
+  .header-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    animation: colorChange 5s infinite, textSize 5s infinite;
+  }
+  
+  /* Keyframes for Color Animation */
+  @keyframes colorChange {
+    0% { color: #ff4500; }
+    50% { color: #1e90ff; }
+    100% { color: #ff4500; }
+  }
+  
+  /* Keyframes for Size Animation */
+  @keyframes textSize {
+    0%, 100% { font-size: 2.5rem; }
+    50% { font-size: 3.5rem; }
+  }
+  
+  /* Button Styling */
+  .header-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Hover Effect for Button */
+  .header-container button:hover {
+    transform: scale(1.1);
+    background-color: #ff4500;
+  }
