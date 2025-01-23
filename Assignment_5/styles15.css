@@ -1,0 +1,44 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+  }
+  
+  /* Header Styling */
+  .header {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(135deg, #3498db, #9b59b6); /* Main gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+  }
+  
+  /* Overlay Gradient */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(52, 152, 219, 0.6), rgba(155, 89, 182, 0.6)); /* Translucent overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Text Styling */
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+  }

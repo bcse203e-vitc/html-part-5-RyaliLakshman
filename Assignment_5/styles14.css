@@ -1,0 +1,80 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Timeline Container */
+  .timeline {
+    position: relative;
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Styling for Each Event */
+  .event {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .event h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .event p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Timeline Line */
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    height: 100%;
+    width: 2px;
+    background-color: #3498db;
+  }
+  
+  /* Event Dots */
+  .event::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #3498db;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  
+  /* Event Styles (Different Styles for Each Event) */
+  .event-1::before {
+    background-color: #e74c3c; /* Red */
+  }
+  
+  .event-2::before {
+    background-color: #f39c12; /* Orange */
+  }
+  
+  .event-3::before {
+    background-color: #2ecc71; /* Green */
+  }
+  
+  .event-4::before {
+    background-color: #9b59b6; /* Purple */
+  }
