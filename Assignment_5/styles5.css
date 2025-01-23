@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  /* Button Container */
+  .button-container {
+    margin: 50px 0;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Gradient Button */
+  .gradient-button {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    border: none;
+    color: white;
+  }
+  
+  .gradient-button:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Border Hover Button */
+  .border-hover-button {
+    background: white;
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+  }
+  
+  .border-hover-button:hover {
+    border-color: #45a049;
+    color: #45a049;
+  }
+  
+  /* Glowing Button */
+  .glowing-button {
+    background: #6a11cb;
+    color: white;
+    border: none;
+    box-shadow: 0 0 10px #6a11cb;
+  }
+  
+  .glowing-button:hover {
+    box-shadow: 0 0 20px #6a11cb, 0 0 30px #2575fc;
+    transform: scale(1.1);
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
