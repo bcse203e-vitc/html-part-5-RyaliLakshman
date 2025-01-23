@@ -1,0 +1,26 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+  }
+  
+  /* Box Styling */
+  .box {
+    width: 200px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    background-color: #3498db; /* Initial background color */
+    margin: 5%; /* Margin in percentage */
+    padding: 10%; /* Padding in percentage */
+    border: 5px solid #2980b9; /* Initial border */
+    transition: all 0.3s ease; /* Smooth transition for border change */
+  }
+  
+  /* Hover Effect */
+  .box:hover {
+    border: 10px solid #e74c3c; /* Change border thickness and color on hover */
+  }
